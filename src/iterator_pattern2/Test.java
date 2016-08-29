@@ -3,7 +3,7 @@
  * @package iterator_pattern
  * @filename Test.java
  */
-package iterator_pattern;
+package iterator_pattern2;
 /**
  * @author xsh
  * @Email xshqhua@foxmail.com
@@ -18,7 +18,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
 		DinerMenu dinerMenu = new DinerMenu();
-		Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+		Waitress waitress = new Waitress(pancakeHouseMenu);
 		waitress.prinMenu();
 	}
 

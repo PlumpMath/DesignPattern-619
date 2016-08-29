@@ -3,7 +3,7 @@
  * @package iterator_pattern
  * @filename menuItem.java
  */
-package iterator_pattern;
+package iterator_pattern2;
 /**
  * @author xsh
  * @Email xshqhua@foxmail.com

@@ -3,7 +3,7 @@
  * @package iterator_pattern
  * @filename PancakeHouseMenu.java
  */
-package iterator_pattern;
+package iterator_pattern3;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -14,7 +14,7 @@ import java.util.List;
  * @Email xshqhua@foxmail.com
  * @date 2016年8月28日 下午10:14:06
  */
-public class PancakeHouseMenu implements Menu{
+public class PancakeHouseMenu extends Menu{
 	List menuItems;
 	
 	public PancakeHouseMenu(){

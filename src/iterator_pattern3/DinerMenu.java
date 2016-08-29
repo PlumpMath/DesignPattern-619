@@ -3,7 +3,7 @@
  * @package iterator_pattern
  * @filename DinerMenu.java
  */
-package iterator_pattern;
+package iterator_pattern3;
 
 import java.util.Iterator;
 
@@ -12,7 +12,7 @@ import java.util.Iterator;
  * @Email xshqhua@foxmail.com
  * @date 2016年8月28日 下午10:30:53
  */
-public class DinerMenu implements Menu{
+public class DinerMenu extends Menu{
 	static final int MAX_ITEMS = 6;
 	int numberOfItem = 0;
 	MenuItem[] menuItems;
